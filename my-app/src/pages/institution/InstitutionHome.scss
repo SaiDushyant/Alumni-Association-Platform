@@ -1,0 +1,67 @@
+/* InstitutionHome.scss */
+
+/* Ensure the app container takes up full width and height */
+.app-container {
+    display: flex;
+    height: 100vh; /* Adjust height as needed */
+  }
+  
+  /* Style for the sidebar */
+  #sidebar {
+    width: 250px; /* Adjust width as needed */
+    background: #f4f4f4; /* Adjust background color as needed */
+  }
+  
+  /* Sidebar layout */
+  .sidebar-layout {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  /* Style for the sidebar header */
+  .sidebar-header {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* Style for sidebar content */
+  .sidebar-content {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  /* Menu styles */
+  .menu {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    padding: 0;
+    margin: 0;
+    list-style: none;       /* Remove default list styles */
+  }
+  
+  .menu-item {
+    padding: 12px;
+    border-radius: 8px;
+  }
+  
+  /* Style for the sidebar footer */
+  .sidebar-footer {
+    padding: 16px;
+    text-align: center;
+    background: #e1e1e1; /* Adjust background color as needed */
+  }
+  
+  /* Main content area */
+  .main-content {
+    flex: 1; /* This ensures it takes up the remaining space */
+  }
+  
+  /* Ensure the section spans the full width */
+  .main-content .h-16 {
+    height: 4rem; /* Adjust height as needed */
+    width: 100%;
+    background-color: #6b7280; /* Adjust background color as needed */
+  }
+  
